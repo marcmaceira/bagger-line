@@ -31,11 +31,9 @@ export default function Navbar() {
 							isActive ? "is-active" : ""
 						}`}
 					>
-						<span className="nav-toggle">
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-						</span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
 					</a>
 				</div>
 
