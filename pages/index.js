@@ -1,65 +1,60 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
+import Head from "next/head";
+import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+	return (
+		<Layout>
+			<main>
+				<div className="container">
+					<section className="section">
+						<div className="columns">
+							<div className="column is-one-quarter">
+								<h2 className="title is-size-1">About Us</h2>
+								<h3 className="subtitle is-size-3">
+									Who we are
+								</h3>
+							</div>
+							<div className="column is-half">
+								<p className="is-size-4">
+									We are a group of 4 senior electrical
+									engineering students coursing our final
+									Capstone project design at Cooper Vision.
+									With our knowledge in the fields of
+									communications, automation and controls, we
+									engaged this project with the mission of
+									solving and improving the quality of the
+									product and reducing their losses.
+								</p>
+							</div>
+						</div>
+					</section>
+					<section className="section">
+						<div className="columns">
+							<div className="column is-one-quarter">
+								<h2 className="title is-size-1">
+									Cooper Vision
+								</h2>
+								<h3 className="subtitle is-size-3">
+									Who's Cooper Vision?
+								</h3>
+							</div>
+							<div className="column is-half">
+								{/* <Hero
+							title="Cooper Vision"
+							subtitle="Who's Cooper Vision?"
+						/> */}
+								<p className="is-size-4">
+									Cooper Vision is the leading company in the
+									manufacture of soft contact lenses in Puerto
+									Rico. Located in Juana Díaz, their product
+									focuses on the production of prescribed
+									lenses.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+		</Layout>
+	);
 }
