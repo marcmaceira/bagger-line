@@ -16,33 +16,6 @@ export default function Layout({ children }) {
 					content="initial-scale=1.0, width=device-width"
 				/>
 			</Head>
-			{/* <header>
-				<nav
-					className="navbar"
-					role="navigation"
-					aria-label="main navigation"
-				>
-					<div id="navbarmenu" className="navbar-menu">
-						<div className="navbar-start">
-							<Link href="/">
-								<a className="navbar-item">Home</a>
-							</Link>
-							<Link href="/about">
-								<a className="navbar-item">About</a>
-							</Link>
-						</div>
-						<div className="navbar-end">
-							<div className="navbar-item">
-								<div className="buttons">
-									<a className="button is-primary">
-										Download Capstone Magazine
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
-			</header> */}
 			<Header />
 			{children}
 			<footer className="footer">
