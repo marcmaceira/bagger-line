@@ -20,7 +20,7 @@ export default function Layout({ children }) {
 			{children}
 			<footer className="footer">
 				<div className="content has-text-centered">
-					<span>I'm the footer</span>
+					{/* <span>I'm the footer</span> */}
 				</div>
 			</footer>
 		</div>
