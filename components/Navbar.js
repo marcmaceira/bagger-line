@@ -45,6 +45,9 @@ export default function Navbar() {
 						<Link href="/">
 							<a className="navbar-item">Home</a>
 						</Link>
+						<Link href="/proposal">
+							<a className="navbar-item">Proposal</a>
+						</Link>
 						<Link href="/Revista Capstone.pdf">
 							<span className="navbar-item">
 								<a className="button is-info is-outlined is-inverted">
