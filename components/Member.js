@@ -3,10 +3,12 @@ export default function Member(props) {
 	return (
 		<div className="card">
 			<div className="card-image">
-				<figure className="image is-4by3">
+				<figure className="image">
 					<Image
 						src={`/img/${props.image}`}
-						layout="fill"
+						// layout="fill"
+						width="350"
+						height="350"
 						alt={props.name}
 					/>
 				</figure>

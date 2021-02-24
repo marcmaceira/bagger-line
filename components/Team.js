@@ -4,28 +4,28 @@ export default function Team() {
 		<div className="columns">
 			<div className="column">
 				<Member
-					image="undraw_growth_curve_8mqx.png"
+					image="gerald-santiago.jpg"
 					name="Gerald Santiago"
 					fieldOfStudy="Electrical Engineering"
 				/>
 			</div>
 			<div className="column">
 				<Member
-					image="undraw_QA_engineers_dg5p.png"
+					image="jesuan-rivera.jpg"
 					name="Jesuan Rivera"
 					fieldOfStudy="Electrical Engineering"
 				/>
 			</div>
 			<div className="column">
 				<Member
-					image="undraw_setup_analytics_8qkl.png"
+					image="ian-robles.jpg"
 					name="Ian Robles"
 					fieldOfStudy="Electrical Engineering"
 				/>
 			</div>
 			<div className="column">
 				<Member
-					image="undraw_site_stats_l57q.png"
+					image="jean-torres.jpg"
 					name="Jean Torres"
 					fieldOfStudy="Electrical Engineering"
 				/>
