@@ -18,7 +18,7 @@ export default function Design() {
 						</div>
 						<div className="columns is-centered is-vcentered">
 							<div className="column is-one-quarter">
-								<figure className="image is-4by3">
+								<figure className="image is-4by3 background-shadow">
 									<Image
 										src="/img/3d-model-autocad.JPG"
 										layout="fill"
@@ -66,7 +66,7 @@ export default function Design() {
 								</div>
 							</div>
 							<div className="column is-one-quarter">
-								<figure className="image is-4by3">
+								<figure className="image is-4by3 background-shadow">
 									<Image
 										src="/img/hmi-1.png"
 										layout="fill"
@@ -74,7 +74,7 @@ export default function Design() {
 									/>
 								</figure>
 								<br />
-								<figure className="image is-4by3">
+								<figure className="image is-4by3 background-shadow">
 									<Image
 										src="/img/hmi-2.png"
 										layout="fill"
@@ -88,7 +88,7 @@ export default function Design() {
 							<div className="column is-one-quarter">
 								<figure className="image is-3by4">
 									<Image
-										src="/img/dls651.png"
+										src="/img/dls651.png background-shadow"
 										layout="fill"
 										alt="Vector art of a guy and an eye"
 									/>

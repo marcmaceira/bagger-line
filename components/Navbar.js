@@ -17,7 +17,7 @@ export default function Navbar() {
 								height="auto"
 								alt="CooperVision logo"
 							/> */}
-							CooperVision
+							Polytechnic University of Puerto Rico
 						</a>
 					</Link>
 					<a
@@ -50,6 +50,9 @@ export default function Navbar() {
 						</Link>
 						<Link href="/design">
 							<a className="navbar-item">Design</a>
+						</Link>
+						<Link href="/implementation">
+							<a className="navbar-item">Implementation</a>
 						</Link>
 						<Link href="/Revista Capstone.pdf">
 							<span className="navbar-item">

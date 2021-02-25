@@ -20,3 +20,7 @@
 .icon-block {
 	font-size: 5em;
 }
+
+.rounded-corners {
+	border-radius: 30px;
+}

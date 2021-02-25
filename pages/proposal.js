@@ -98,7 +98,7 @@ export default function Proposal() {
 								</div>
 							</div>
 							<div className="column is-half">
-								<figure className="image is-4by3">
+								<figure className="image is-4by3 background-shadow">
 									<Image
 										src="/img/estimated-cost-summary.JPG"
 										layout="fill"

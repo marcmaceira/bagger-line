@@ -36,14 +36,15 @@ export default function Home() {
 					</section>
 					<section className="section">
 						<div className="has-text-centered">
-							<h2 className="title is-1">Cooper Vision</h2>
+							<h2 className="title is-1">CooperVision</h2>
 							<h3 className="subtitle is-3">
-								Who's Cooper Vision?
+								Who's CooperVision?
 							</h3>
 						</div>
+						<br />
 						<div className="columns is-centered">
 							<div className="column is-half">
-								<figure className="image is-4by3">
+								<figure className="image is-4by3 background-shadow">
 									<Image
 										className="is-rounded"
 										src="/img/undraw_Surveillance_re_8tkl.png"
