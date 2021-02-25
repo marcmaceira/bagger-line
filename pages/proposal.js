@@ -17,7 +17,7 @@ export default function Proposal() {
 							</div>
 						</div>
 						<div className="columns is-centered">
-							<div className="column is-half">
+							<div className="column is-three-quarters">
 								<div className="has-text-justified-desktop">
 									<p className="is-size-4">
 										Since the main problem with the bagger
@@ -38,7 +38,7 @@ export default function Proposal() {
 						<div className="columns is-centered">
 							<div className="column is-half">
 								<div className="has-text-centered">
-									<h2 className="title is-3">Limitations</h2>
+									<h2 className="title is-1">Limitations</h2>
 									<h3 className="subtitle is-3">
 										Identified Limitations
 									</h3>
@@ -46,7 +46,7 @@ export default function Proposal() {
 							</div>
 						</div>
 						<div className="columns is-centered">
-							<div className="column is-half">
+							<div className="column is-three-quarters">
 								<div className="has-text-justified-desktop">
 									<p className="is-size-4">
 										We were working in a well-known and
@@ -73,31 +73,36 @@ export default function Proposal() {
 					</section>
 					<section className="section">
 						<div className="columns is-centered">
-							<div className="column is-half">
-								<div className="">
+							<div className="column is-three-quarters">
+								<div className="has-text-centered">
 									<h2 className="title is-1">Budget</h2>
 									<h3 className="subtitle is-3">
 										Estimated Budget
 									</h3>
-									<div className="has-text-justified-desktop">
-										<p className="is-size-4">
-											This project involved the entire
-											engineering team of Cooper Vision,
-											as well as the manufacturing company
-											of Hekuma, the approved budget was
-											as follows:
-										</p>
-										<br />
-										<p className="is-size-4">
-											Our Capstone project, located in the
-											category of “Engineering”, was given
-											a total of{" "}
-											<strong>$49,332.75</strong>.
-										</p>
-									</div>
 								</div>
 							</div>
-							<div className="column is-half">
+						</div>
+						<div className="columns is-centered">
+							<div className="column is-three-quarters">
+								<div className="has-text-justified-desktop">
+									<p className="is-size-4">
+										This project involved the entire
+										engineering team of Cooper Vision, as
+										well as the manufacturing company of
+										Hekuma, the approved budget was as
+										follows:
+									</p>
+									<br />
+									<p className="is-size-4">
+										Our Capstone project, located in the
+										category of “Engineering”, was given a
+										total of <strong>$49,332.75</strong>.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className="columns is-centered">
+							<div className="column is-three-quarters is-centered">
 								<figure className="image is-4by3 background-shadow">
 									<Image
 										src="/img/estimated-cost-summary.JPG"

@@ -86,9 +86,9 @@ export default function Design() {
 						<br />
 						<div className="columns is-centered is-vcentered">
 							<div className="column is-one-quarter">
-								<figure className="image is-3by4">
+								<figure className="image is-3by4 background-shadow">
 									<Image
-										src="/img/dls651.png background-shadow"
+										src="/img/dls651.png"
 										layout="fill"
 										alt="Vector art of a guy and an eye"
 									/>

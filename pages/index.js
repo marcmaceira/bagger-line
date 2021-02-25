@@ -8,7 +8,7 @@ export default function Home() {
 				<div className="container">
 					<section className="section">
 						<div className="columns is-centered">
-							<div className="column is-half">
+							<div className="column is-three-quarters">
 								<div className="has-text-centered">
 									<h2 className="title is-1">About Us</h2>
 									<h3 className="subtitle is-3">Our Team</h3>
@@ -16,7 +16,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="columns is-centered">
-							<div className="column is-half">
+							<div className="column is-three-quarters">
 								<div className="has-text-justified-desktop">
 									<p className="is-size-4">
 										We are a group of 4 senior electrical
@@ -55,10 +55,10 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="columns is-centered">
-							<div className="column is-half">
+							<div className="column is-three-quarters">
 								<div className="has-text-justified-desktop">
 									<p className="is-size-4">
-										Cooper Vision is the leading company in
+										CooperVision is the leading company in
 										the manufacture of soft contact lenses
 										in Puerto Rico. Located in Juana Díaz,
 										their product focuses on the production
