@@ -44,7 +44,7 @@ export default function Home() {
 						<br />
 						<div className="columns is-centered">
 							<div className="column is-half">
-								<figure className="image is-4by3 background-shadow">
+								<figure className="image is-4by3">
 									<Image
 										className="is-rounded"
 										src="/img/undraw_Surveillance_re_8tkl.png"
